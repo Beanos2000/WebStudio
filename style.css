@@ -8,3 +8,115 @@
     --footer-background: #2F303A;
     --footer-information: rgba(255, 255, 255, 0.60);
 }
+/* ================================================================== */
+body{
+    font-family: Roboto;
+}
+/* ================================================================== */
+.header-title{
+    /* Я не понимаю, как сделать "web" черной, а "studio" синей */
+}
+
+.header-item{
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.header-item2{
+    color: var(--aditional-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+/* ================================================================== */
+.hero{
+    background-color: var(--footer-background);
+}
+
+.hero-title{
+    color: var(--title-color);
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.hero-button{
+    border-radius: 4px;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--title-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.96px;
+}
+/* =================================================================== */
+.benefit-facts{
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.benefit-text{
+    width: 270px;
+    height: 72px;
+    flex-shrink: 0;
+    color: var(--aditional-text-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+/* ======================================================================== */
+.exemples-title{
+    color: var(--text-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+/* ================================================================== */
+.team-title{
+    color: var(--text-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+
+.team-names{
+    color: var(--text-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.team-ranks{
+    color: #757575;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+
+
