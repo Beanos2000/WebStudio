@@ -13,8 +13,22 @@ body{
     font-family: Roboto;
 }
 /* ================================================================== */
-.header-title{
-    /* Я не понимаю, как сделать "web" черной, а "studio" синей */
+.header-title1{
+    color: var(--logo-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.header-title2{
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
 }
 
 .header-item{
@@ -110,13 +124,66 @@ body{
 .team-ranks{
     color: #757575;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.48px;
 }
+/* =========================================================================== */
+.footer{
+    background-color: var(--footer-background);
+}
 
+.footer-title1{
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
 
+.footer-title2{
+    color: var(--title-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.footer-location{
+    width: 231px;
+    height: 21px;
+    flex-shrink: 0;
+    color: var(--title-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+
+.footer-social1{
+    font-style: normal;
+    width: 136px;
+    height: 21px;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+
+.footer-social2{
+    font-style: normal;
+    width: 231px;
+    height: 21px;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
 
