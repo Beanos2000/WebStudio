@@ -186,4 +186,43 @@ body{
     line-height: 1.71;
     letter-spacing: 0.42px;
 }
+/* ===================================================================================== */
+.port-catag-item{
+    color: var(--text-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
+}
+
+.port-catag-button{
+    width: 125px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--team-background)
+}
+
+.port-catag-title{
+    width: 322px;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
+}
+
+.port-catag-text{
+    width: 322px;
+    color: var(--aditional-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    letter-spacing: 0.48px;
+}
+
+
+
+
 
