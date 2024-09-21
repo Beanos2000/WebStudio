@@ -12,8 +12,9 @@
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    padding-left: 13px;
-    padding-right: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid red;
 }
 /* ================================================================== */
 body{
@@ -44,7 +45,7 @@ body{
     letter-spacing: 0.78px;
 }
 
-.header-item{
+.header-buttons{
     color: var(--text-color);
     font-size: 14px;
     font-weight: 500;
@@ -52,13 +53,28 @@ body{
     letter-spacing: 0.28px;
 }
 
-.header-item2{
+.header-buttons:hover,
+.header-buttons:focus{
+    color: var(--accent-color);
+}
+
+.active{
+    color: var(--accent-color);
+}
+
+.header-social{
     color: var(--aditional-text-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.38;
     letter-spacing: 0.28px;
 }
+
+.header-social:hover,
+.header-social:focus{
+    color: var(--accent-color);
+}
+
 /* ================================================================== */
 .hero{
     padding-top: 200px;
