@@ -8,17 +8,30 @@
     --footer-background: #2F303A;
     --footer-information: rgba(255, 255, 255, 0.60);
 }
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
 /* ================================================================== */
 body{
     font-family: Roboto;
 }
 /* ================================================================== */
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+}
+
 .header-title1{
     color: var(--logo-color);
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.38;
     letter-spacing: 0.78px;
 }
 
@@ -27,7 +40,7 @@ body{
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.38;
     letter-spacing: 0.78px;
 }
 
@@ -35,7 +48,7 @@ body{
     color: var(--text-color);
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.38;
     letter-spacing: 0.28px;
 }
 
@@ -43,11 +56,13 @@ body{
     color: var(--aditional-text-color);
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.38;
     letter-spacing: 0.28px;
 }
 /* ================================================================== */
 .hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: var(--footer-background);
 }
 
@@ -73,6 +88,11 @@ body{
     letter-spacing: 0.96px;
 }
 /* =================================================================== */
+.benefit{
+    padding-top: 94px;
+    padding-bottom: 118px;
+}
+
 .benefit-facts{
     color: var(--text-color);
     font-size: 14px;
@@ -94,6 +114,10 @@ body{
     letter-spacing: 0.42px;
 }
 /* ======================================================================== */
+.exemples{
+    padding-bottom: 94px;
+}
+
 .exemples-title{
     color: var(--text-color);
     text-align: center;
@@ -103,6 +127,11 @@ body{
     letter-spacing: 1.08px;
 }
 /* ================================================================== */
+.team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .team-title{
     color: var(--text-color);
     text-align: center;
@@ -131,6 +160,8 @@ body{
 }
 /* =========================================================================== */
 .footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--footer-background);
 }
 
@@ -186,7 +217,16 @@ body{
     line-height: 1.71;
     letter-spacing: 0.42px;
 }
-/* ===================================================================================== */
+/* ===================================================================== */
+.port-catag-list{
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.port-catag-list2{
+    padding-bottom: 94px;
+}
+
 .port-catag-item{
     color: var(--text-color);
     text-align: center;
@@ -221,6 +261,7 @@ body{
     line-height: 1.87;
     letter-spacing: 0.48px;
 }
+/* ================================================================================ */
 
 
 
