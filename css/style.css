@@ -15,7 +15,7 @@
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 /* ================================================================== */
@@ -355,6 +355,7 @@ body {
 }
 
 .port-catag-list2{
+    flex-basis: calc((100% - 60px) / 3);
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -362,6 +363,10 @@ body {
 
 .port-catag-item2{
     outline: 1px solid #EEE;
+}
+
+.port-catag-img{
+    width: 100%;
 }
 
 .port-box{
