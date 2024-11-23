@@ -140,6 +140,31 @@ body {
     gap: 30px;
 }
 
+.benefit-item::before {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background: #F5F4FA;
+    margin-bottom: 30px;
+    background-image: url(../img/antenna.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.benefit-item:nth-child(2)::before{
+    background-image: url(../img/clock.png);
+}
+
+.benefit-item:nth-child(3)::before{
+    background-image: url(../img/computer.png);
+}
+
+.benefit-item:nth-child(4)::before{
+    background-image: url(../img/astronaut.png);
+}
+
 .benefit-facts {
     color: var(--text-color);
     font-size: 14px;
@@ -316,7 +341,7 @@ body {
     border-top: 1px solid #ececec;
 }
 
-.port-catag-list{
+.port-catag-list {
     display: flex;
     justify-content: center;
     gap: 8px;
@@ -349,27 +374,27 @@ body {
 }
 
 .port-catag-button:hover,
-.port-catag-button:focus{
+.port-catag-button:focus {
     background-color: var(--accent-color);
     color: var(--title-color);
 }
 
-.port-catag-list2{
+.port-catag-list2 {
     flex-basis: calc((100% - 60px) / 3);
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.port-catag-item2{
+.port-catag-item2 {
     outline: 1px solid #EEE;
 }
 
-.port-catag-img{
+.port-catag-img {
     width: 100%;
 }
 
-.port-box{
+.port-box {
     padding: 20px 24px;
 }
 
