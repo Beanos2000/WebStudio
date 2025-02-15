@@ -41,8 +41,8 @@ body {
 
 .header-list2 {
     display: flex;
-    gap: 50px;
-    margin-left: 344px;
+    gap: 30px;
+    margin-left: auto;
 }
 
 .header-title1 {
@@ -87,6 +87,23 @@ body {
     font-weight: 500;
     line-height: 1.38;
     letter-spacing: 0.28px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-icon {
+    width: 16px;
+    height: 12px;
+    fill: var(--aditional-text-color);
+}
+
+.header-item2:nth-child(2) {
+    .header-icon {
+        width: 10px;
+        height: 16px;
+    }
 }
 
 .header-social:hover,
@@ -158,15 +175,15 @@ body {
     background-position: center;
 }
 
-.benefit-item:nth-child(2)::before{
+.benefit-item:nth-child(2)::before {
     background-image: url(../img/clock.png);
 }
 
-.benefit-item:nth-child(3)::before{
+.benefit-item:nth-child(3)::before {
     background-image: url(../img/computer.png);
 }
 
-.benefit-item:nth-child(4)::before{
+.benefit-item:nth-child(4)::before {
     background-image: url(../img/astronaut.png);
 }
 
@@ -224,7 +241,7 @@ body {
     gap: 30px;
 }
 
-.team-items{
+.team-items {
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
     border-radius: 0px 0px 4px 4px;
 }
@@ -401,7 +418,7 @@ body {
     outline: 1px solid #EEE;
 }
 
-.port-catag-item2:hover{
+.port-catag-item2:hover {
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
