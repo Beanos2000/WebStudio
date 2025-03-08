@@ -111,6 +111,10 @@ body {
 .header-social:hover,
 .header-social:focus {
     color: var(--accent-color);
+
+    .header-icon {
+        fill: var(--accent-color);
+    }
 }
 
 /*--------------------- hero --------------------------*/
@@ -234,6 +238,30 @@ body {
     gap: 30px;
 }
 
+.exemples-item {
+    position: relative;
+}
+
+.exemples-text {
+    color: var(--title-color);
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: #2F303ACC;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
 /*--------------------- team --------------------------*/
 
 .team {
@@ -293,9 +321,45 @@ body {
     letter-spacing: 0.48px;
 }
 
+.team-socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.team-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-link:hover,
+.team-link:focus {
+    background-color: var(--accent-color);
+
+    .team-icon {
+        fill: var(--title-color);
+    }
+}
+
+.team-icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+
 /*-------------------- clients -----------------------*/
 
-.clients-header{
+.clients {
+    padding: 94px 0px;
+}
+
+.clients-header {
     color: #212121;
     text-align: center;
     font-family: Roboto;
@@ -304,24 +368,39 @@ body {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
-    margin-top: 94px;
     margin-bottom: 50px;
 }
 
-.clients-list{
+.clients-list {
     display: flex;
     justify-content: center;
-    margin-bottom: 94px;
+    gap: 30px;
 }
 
-.clients-img{
-    fill: #AFB1B8;
+.clients-link {
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    outline: 1px solid #AFB1B8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.clients-link:hover{
-    .clients-img{
+.clients-link:hover,
+.clients-link:focus {
+    outline: 1px solid var(--accent-color);
+
+    .clients-img {
         fill: #2196F3;
     }
+}
+
+.clients-img {
+    fill: #AFB1B8;
+    width: 106px;
+    height: 60px;
 }
 
 /*-------------------- footer ------------------------*/
@@ -330,6 +409,11 @@ body {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2F303A;
+}
+
+.footer-wrap{
+    display: flex;
+    align-items: baseline;
 }
 
 .footer-title1 {
@@ -391,6 +475,47 @@ body {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
+}
+
+.footer-title {
+    color: var(--title-color);
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social{
+    margin-left: 70px;
+}
+
+.footer-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.10);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-link:hover, .footer-link:focus{
+    background-color: var(--accent-color);
+}
+
+.footer-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--title-color);
 }
 
 
