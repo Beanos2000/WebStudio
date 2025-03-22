@@ -15,7 +15,7 @@
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 /*----------------------- body ----------------------*/
@@ -526,7 +526,7 @@ body {
 }
 
 .footer-signup {
-    margin-left: 70px;
+    margin-left: auto;
 }
 
 .signup-title {
@@ -583,6 +583,7 @@ body {
 .signup-button:focus {
     background: #FFF;
     color: #188CE8;
+
     .signup-icon {
         fill: #188CE8;
     }
@@ -628,7 +629,7 @@ body {
     padding: 6px 22px;
     border: none;
     border-radius: 4px;
-    background: var(--team-background);
+    background: var(--team-backgroundd);
     color: #212121;
     text-align: center;
     font-family: Roboto;
@@ -811,10 +812,11 @@ body {
 .model-checkbox-group {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .model-checkbox {
-    padding-top: 20px;
     color: #757575;
     font-family: Roboto;
     font-size: 14px;
@@ -822,6 +824,34 @@ body {
     font-weight: 400;
     line-height: 171%;
     letter-spacing: 0.42px;
+    margin-left: 9px;
+    margin-right: 4px;
+}
+
+.model-link {
+
+    color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+
+}
+
+.model-check {
+
+    width: 16px;
+    height: 15px;
+    fill: #212121;
+
 }
 
 .model-button-group {

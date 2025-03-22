@@ -374,8 +374,8 @@
             <div class="footer-signup">
                 <h2 class="signup-title">Підпишіться на розсилку</h2>
                 <form class="signup-form">
-                    <input type="text" placeholder="Email" class="signup-input">
-                    <button type="button" class="signup-button">Підписатися
+                    <input required type="text" placeholder="Email" class="signup-input">
+                    <button type="submit" class="signup-button">Підписатися
                         <svg class="signup-icon">
                             <use href="./img/symbol-defs.svg#icon-send"></use>
                         </svg>
@@ -400,21 +400,21 @@
 
             <form class="model-form">
                 <label class="model-label">Ім'я
-                    <input type="text" class="model-input">
+                    <input required type="text" class="model-input">
                     <svg class="model-icon">
                         <use href="./img/symbol-defs.svg#icon-person"></use>
                     </svg>
                 </label>
 
                 <label class="model-label">Телефон
-                    <input type="tel" class="model-input">
+                    <input required type="tel" class="model-input">
                     <svg class="model-icon">
                         <use href="./img/symbol-defs.svg#icon-phone"></use>
                     </svg>
                 </label>
 
                 <label class="model-label">Пошта
-                    <input type="email" class="model-input">
+                    <input required type="email" class="model-input">
                     <svg class="model-icon">
                         <use href="./img/symbol-defs.svg#icon-envelope"></use>
                     </svg>
@@ -425,13 +425,15 @@
                 </label>
 
                 <div class="model-checkbox-group">
-                    <label class="model-checkbox">Погоджуюся з розсилкою та приймаю  Умови договору
-                        <input type="checkbox">
-                    </label>
+
+                    <input required class="model-check" type="checkbox" id="qwa">
+
+                    <label for="qwa" class="model-checkbox">Погоджуюся з розсилкою та приймаю</label>
+                    <a href="#" class="model-link">Умови договору</a>
                 </div>
                 
                 <div class="model-button-group">
-                    <button type="button" class="model-button">Відправити
+                    <button type="submit" class="model-button">Відправити
                     
                     </button>
                 </div>
