@@ -3,7 +3,7 @@
 }
 
 .exemples-title {
-    color: var(--text-color);
+    color: $text-color;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -22,7 +22,7 @@
 }
 
 .exemples-text {
-    color: var(--title-color);
+    color: $title-color;
 
     text-align: center;
     font-size: 14px;
@@ -33,7 +33,7 @@
 
     padding-top: 27px;
     padding-bottom: 27px;
-    background-color: #2F303ACC;
+    background-color: $footer-background;
 
     position: absolute;
     bottom: 0;

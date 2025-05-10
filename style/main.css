@@ -33,17 +33,6 @@ body {
   outline: 1px solid red;
 }
 
-:root {
-  --logo-color: #000;
-  --accent-color: #2196F3;
-  --text-color: #212121;
-  --aditional-text-color: #757575;
-  --title-color: #FFF;
-  --team-background: #F5F4FA;
-  --footer-background: #2F303A;
-  --footer-information: rgba(255, 255, 255, 0.60);
-}
-
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -66,7 +55,7 @@ body {
 }
 
 .header-title1 {
-  color: var(--logo-color);
+  color: #000;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -75,7 +64,7 @@ body {
 }
 
 .header-title2 {
-  color: var(--accent-color);
+  color: #2196F3;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -89,7 +78,7 @@ body {
 }
 
 .header-buttons {
-  color: var(--text-color);
+  color: #212121;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.38;
@@ -112,7 +101,7 @@ body {
 
 .header-buttons:hover,
 .header-buttons:focus {
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .header-buttons:hover::after {
@@ -120,11 +109,11 @@ body {
 }
 
 .active {
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .header-social {
-  color: var(--aditional-text-color);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.38;
@@ -137,7 +126,7 @@ body {
 .header-icon {
   width: 16px;
   height: 12px;
-  fill: var(--aditional-text-color);
+  fill: #757575;
 }
 
 .header-item2:nth-child(2) .header-icon {
@@ -147,17 +136,17 @@ body {
 
 .header-social:hover,
 .header-social:focus {
-  color: var(--accent-color);
+  color: #2196F3;
 }
 .header-social:hover .header-icon,
 .header-social:focus .header-icon {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--footer-background);
+  background-color: #2F303A;
   text-align: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero-people.webp);
   background-repeat: no-repeat;
@@ -166,7 +155,7 @@ body {
 }
 
 .hero-title {
-  color: var(--title-color);
+  color: #FFF;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -180,9 +169,9 @@ body {
 
 .hero-button {
   border-radius: 4px;
-  background: var(--accent-color);
+  background: #2196F3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: var(--title-color);
+  color: #FFF;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
@@ -196,7 +185,7 @@ body {
 .hero-button:focus,
 .hero-button:hover {
   background: #FFF;
-  color: #188CE8;
+  color: #2196F3;
 }
 
 .benefit {
@@ -235,7 +224,7 @@ body {
 }
 
 .benefit-facts {
-  color: var(--text-color);
+  color: #212121;
   font-size: 14px;
   font-weight: 700;
   line-height: normal;
@@ -248,7 +237,7 @@ body {
   width: 270px;
   height: 72px;
   flex-shrink: 0;
-  color: var(--aditional-text-color);
+  color: #757575;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -261,7 +250,7 @@ body {
 }
 
 .exemples-title {
-  color: var(--text-color);
+  color: #212121;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -280,7 +269,7 @@ body {
 }
 
 .exemples-text {
-  color: var(--title-color);
+  color: #FFF;
   text-align: center;
   font-size: 14px;
   font-weight: 700;
@@ -289,7 +278,7 @@ body {
   text-transform: uppercase;
   padding-top: 27px;
   padding-bottom: 27px;
-  background-color: rgba(47, 48, 58, 0.8);
+  background-color: #2F303A;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -313,7 +302,7 @@ body {
 }
 
 .team-title {
-  color: var(--text-color);
+  color: #212121;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -331,11 +320,11 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
-  background: var(--title-color);
+  background: #FFF;
 }
 
 .team-names {
-  color: var(--text-color);
+  color: #212121;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -371,11 +360,11 @@ body {
 
 .team-link:hover,
 .team-link:focus {
-  background-color: var(--accent-color);
+  background-color: #2196F3;
 }
 .team-link:hover .team-icon,
 .team-link:focus .team-icon {
-  fill: var(--title-color);
+  fill: #FFF;
 }
 
 .team-icon {
@@ -391,9 +380,7 @@ body {
 .clients-header {
   color: #212121;
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
@@ -418,7 +405,7 @@ body {
 
 .clients-link:hover,
 .clients-link:focus {
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid #2196F3;
 }
 .clients-link:hover .clients-img,
 .clients-link:focus .clients-img {
@@ -443,7 +430,7 @@ body {
 }
 
 .footer-title1 {
-  color: var(--accent-color);
+  color: #2196F3;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -452,7 +439,7 @@ body {
 }
 
 .footer-title2 {
-  color: var(--title-color);
+  color: #FFF;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -466,7 +453,7 @@ body {
   width: 231px;
   height: 21px;
   flex-shrink: 0;
-  color: var(--title-color);
+  color: #FFF;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -480,7 +467,6 @@ body {
 }
 
 .footer-social1 {
-  font-style: normal;
   width: 136px;
   height: 21px;
   flex-shrink: 0;
@@ -492,7 +478,6 @@ body {
 }
 
 .footer-social2 {
-  font-style: normal;
   width: 231px;
   height: 21px;
   flex-shrink: 0;
@@ -504,7 +489,7 @@ body {
 }
 
 .footer-title {
-  color: var(--title-color);
+  color: #FFF;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -534,13 +519,13 @@ body {
 
 .footer-link:hover,
 .footer-link:focus {
-  background-color: var(--accent-color);
+  background-color: #2196F3;
 }
 
 .footer-icon {
   width: 20px;
   height: 20px;
-  fill: var(--title-color);
+  fill: #FFF;
 }
 
 .footer-signup {
@@ -550,7 +535,6 @@ body {
 .signup-title {
   color: #FFF;
   font-size: 14px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.42px;
@@ -582,9 +566,7 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #FFF;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: 30px;
   /* 187.5% */
@@ -598,11 +580,11 @@ body {
 .signup-button:hover,
 .signup-button:focus {
   background: #FFF;
-  color: #188CE8;
+  color: #2196F3;
 }
 .signup-button:hover .signup-icon,
 .signup-button:focus .signup-icon {
-  fill: #188CE8;
+  fill: #2196F3;
 }
 
 .signup-icon {
@@ -626,7 +608,7 @@ body {
 }
 
 .port-catag-item {
-  color: var(--text-color);
+  color: #212121;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -638,12 +620,10 @@ body {
   padding: 6px 22px;
   border: none;
   border-radius: 4px;
-  background: var(--team-backgroundd);
+  background: #F5F4FA;
   color: #212121;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 26px;
   /* 162.5% */
@@ -652,8 +632,8 @@ body {
 
 .port-catag-button:hover,
 .port-catag-button:focus {
-  background-color: var(--accent-color);
-  color: var(--title-color);
+  background-color: #2196F3;
+  color: #FFF;
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -665,7 +645,7 @@ body {
 }
 
 .port-catag-item2 {
-  outline: 1px solid #EEE;
+  outline: 1px solid #FFF;
   transition: 250ms all ease-out;
 }
 
@@ -688,7 +668,7 @@ body {
 
 .port-catag-description {
   transform: translateY(100%);
-  color: var(--title-color);
+  color: #FFF;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -711,7 +691,7 @@ body {
 
 .port-catag-title {
   width: 322px;
-  color: var(--text-color);
+  color: #212121;
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
@@ -720,7 +700,7 @@ body {
 
 .port-catag-text {
   width: 322px;
-  color: var(--aditional-text-color);
+  color: #757575;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.87;
@@ -733,7 +713,7 @@ body {
   left: 0px;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.15);
   opacity: 1;
   display: flex;
   justify-content: center;
@@ -759,7 +739,7 @@ body {
   border-radius: 50%;
   background-color: transparent;
   border: none;
-  outline: 1px solid rgba(0, 0, 0, 0.1);
+  outline: 1px solid rgba(0, 0, 0, 0.15);
   position: absolute;
   top: 7px;
   right: 8px;
@@ -845,9 +825,7 @@ body {
 
 .model-checkbox {
   color: #757575;
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 171%;
   letter-spacing: 0.42px;
@@ -857,9 +835,7 @@ body {
 
 .model-link {
   color: #2196F3;
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
@@ -888,13 +864,11 @@ body {
   height: 50px;
   border-radius: 4px;
   border: none;
-  background: #188CE8;
+  background: #2196F3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #FFF;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: 187%;
   letter-spacing: 0.96px;
@@ -904,6 +878,6 @@ body {
 .model-button:hover {
   width: 203px;
   height: 53px;
-  color: #188CE8;
+  color: #2196F3;
   background: #FFF;
 }/*# sourceMappingURL=main.css.map */

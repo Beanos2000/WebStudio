@@ -1,7 +1,7 @@
 .team {
     padding-top: 94px;
     padding-bottom: 94px;
-    background: #F5F4FA;
+    background: $team-background;
 }
 
 .team-list {
@@ -15,7 +15,7 @@
 }
 
 .team-title {
-    color: var(--text-color);
+    color: $text-color;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -33,11 +33,11 @@
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 0px 0px 4px 4px;
-    background: var(--title-color);
+    background: $title-color;
 }
 
 .team-names {
-    color: var(--text-color);
+    color: $text-color;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -47,7 +47,7 @@
 }
 
 .team-ranks {
-    color: #757575;
+    color: $aditional-text-color;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -74,15 +74,15 @@
 
 .team-link:hover,
 .team-link:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
 
     .team-icon {
-        fill: var(--title-color);
+        fill: $title-color;
     }
 }
 
 .team-icon {
     width: 20px;
     height: 20px;
-    fill: #AFB1B8;
+    fill: $border-item;
 }

@@ -1,10 +1,17 @@
-:root {
-    --logo-color: #000;
-    --accent-color: #2196F3;
-    --text-color: #212121;
-    --aditional-text-color: #757575;
-    --title-color: #FFF;
-    --team-background: #F5F4FA;
-    --footer-background: #2F303A;
-    --footer-information: rgba(255, 255, 255, 0.60);
-}
+$title-color: #FFF;
+$team-background: #F5F4FA;
+$header-line: #ececec;
+$border-item: #AFB1B8;
+$aditional-text-color: #757575;
+$footer-background: #2F303A;
+$text-color: #212121;
+$logo-color: #000;
+$accent-color: #2196F3;
+$overlay-background: rgba(33, 150, 243, 0.90);
+
+$footer-information: rgba(255, 255, 255, 0.60);
+$social-background: rgba(255, 255, 255, 0.10);
+$input-color: rgba(255, 255, 255, 0.30);
+$shadow: rgba(0, 0, 0, 0.15);
+$gradient: rgba(47, 48, 58, 0.40);
+$model-input: rgba(33, 33, 33, 0.20);

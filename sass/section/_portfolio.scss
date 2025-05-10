@@ -1,7 +1,7 @@
 .port-catag {
     padding-top: 94px;
     padding-bottom: 94px;
-    border-top: 1px solid #ececec;
+    border-top: 1px solid $header-line;
 }
 
 .port-catag-list {
@@ -12,7 +12,7 @@
 }
 
 .port-catag-item {
-    color: var(--text-color);
+    color: $text-color;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -24,12 +24,10 @@
     padding: 6px 22px;
     border: none;
     border-radius: 4px;
-    background: var(--team-backgroundd);
-    color: #212121;
+    background: $team-background;
+    color: $text-color;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 26px;
     /* 162.5% */
@@ -38,8 +36,8 @@
 
 .port-catag-button:hover,
 .port-catag-button:focus {
-    background-color: var(--accent-color);
-    color: var(--title-color);
+    background-color: $accent-color;
+    color: $title-color;
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -51,7 +49,7 @@
 }
 
 .port-catag-item2 {
-    outline: 1px solid #EEE;
+    outline: 1px solid $title-color;
     transition: 250ms all ease-out;
 }
 
@@ -74,7 +72,7 @@
 
 .port-catag-description {
     transform: translateY(100%);
-    color: var(--title-color);
+    color: $title-color;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -84,7 +82,7 @@
     top: 0px;
     left: 0px;
     opacity: 0;
-    background: rgba(33, 150, 243, 0.90);
+    background: $overlay-background;
     width: 100%;
     height: 100%;
     padding: 63px 24px;
@@ -97,7 +95,7 @@
 
 .port-catag-title {
     width: 322px;
-    color: var(--text-color);
+    color: $text-color;
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
@@ -106,7 +104,7 @@
 
 .port-catag-text {
     width: 322px;
-    color: var(--aditional-text-color);
+    color: $aditional-text-color;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.87;
