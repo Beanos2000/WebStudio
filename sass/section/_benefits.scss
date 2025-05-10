@@ -1,0 +1,56 @@
+.benefit {
+    padding-top: 94px;
+    padding-bottom: 118px;
+}
+
+.benefit-list {
+    display: flex;
+    gap: 30px;
+}
+
+.benefit-item::before {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background: #F5F4FA;
+    margin-bottom: 30px;
+    background-image: url(../img/antenna.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.benefit-item:nth-child(2)::before {
+    background-image: url(../img/clock.png);
+}
+
+.benefit-item:nth-child(3)::before {
+    background-image: url(../img/computer.png);
+}
+
+.benefit-item:nth-child(4)::before {
+    background-image: url(../img/astronaut.png);
+}
+
+.benefit-facts {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.benefit-text {
+    width: 270px;
+    height: 72px;
+    flex-shrink: 0;
+    color: var(--aditional-text-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}

@@ -1,0 +1,42 @@
+.exemples {
+    padding-bottom: 94px;
+}
+
+.exemples-title {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+}
+
+.exemples-list {
+    display: flex;
+    gap: 30px;
+}
+
+.exemples-item {
+    position: relative;
+}
+
+.exemples-text {
+    color: var(--title-color);
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: #2F303ACC;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
