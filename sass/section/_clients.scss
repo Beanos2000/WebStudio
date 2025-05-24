@@ -27,6 +27,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 250ms all ease-in;
+}
+
+
+.clients-img {
+    fill: $border-item;
+    width: 106px;
+    height: 60px;
+    transition: 200ms all ease-in;
 }
 
 .clients-link:hover,
@@ -36,10 +45,4 @@
     .clients-img {
         fill: $accent-color;
     }
-}
-
-.clients-img {
-    fill: $border-item;
-    width: 106px;
-    height: 60px;
 }

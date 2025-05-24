@@ -97,6 +97,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 250ms all ease-in-out;
 }
 
 .footer-link:hover,
@@ -159,6 +160,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 12px;
+    transition: 250ms all ease-in-out;
 }
 
 .signup-button:hover,
@@ -176,4 +178,5 @@
     height: 24px;
     fill: $title-color;
     margin-left: 10px;
+    transition: 250ms all ease-in;
 }

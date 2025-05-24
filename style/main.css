@@ -121,6 +121,16 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  transition: 250ms all ease-in;
+}
+
+.header-social:hover,
+.header-social:focus {
+  color: #2196F3;
+}
+.header-social:hover .header-icon,
+.header-social:focus .header-icon {
+  fill: #2196F3;
 }
 
 .header-icon {
@@ -132,15 +142,6 @@ body {
 .header-item2:nth-child(2) .header-icon {
   width: 10px;
   height: 16px;
-}
-
-.header-social:hover,
-.header-social:focus {
-  color: #2196F3;
-}
-.header-social:hover .header-icon,
-.header-social:focus .header-icon {
-  fill: #2196F3;
 }
 
 .hero {
@@ -180,6 +181,7 @@ body {
   padding: 10px 32px;
   border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: 250ms all ease-in-out;
 }
 
 .hero-button:focus,
@@ -356,6 +358,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 250ms all ease-in;
 }
 
 .team-link:hover,
@@ -401,6 +404,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 250ms all ease-in;
+}
+
+.clients-img {
+  fill: #AFB1B8;
+  width: 106px;
+  height: 60px;
+  transition: 200ms all ease-in;
 }
 
 .clients-link:hover,
@@ -410,12 +421,6 @@ body {
 .clients-link:hover .clients-img,
 .clients-link:focus .clients-img {
   fill: #2196F3;
-}
-
-.clients-img {
-  fill: #AFB1B8;
-  width: 106px;
-  height: 60px;
 }
 
 .footer {
@@ -515,6 +520,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 250ms all ease-in-out;
 }
 
 .footer-link:hover,
@@ -575,6 +581,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-left: 12px;
+  transition: 250ms all ease-in-out;
 }
 
 .signup-button:hover,
@@ -592,6 +599,7 @@ body {
   height: 24px;
   fill: #FFF;
   margin-left: 10px;
+  transition: 250ms all ease-in;
 }
 
 .port-catag {
