@@ -1,48 +1,48 @@
 .clients {
     padding: 94px 0px;
-}
 
-.clients-header {
-    color: $text-color;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.08px;
-    margin-bottom: 50px;
-}
+    &__header {
+        color: $text-color;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.08px;
+        margin-bottom: 50px;
+    }
 
-.clients-list {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
 
-.clients-link {
-    width: 170px;
-    height: 92px;
-    border-radius: 4px;
-    outline: 1px solid $border-item;
+    &__link {
+        width: 170px;
+        height: 92px;
+        border-radius: 4px;
+        outline: 1px solid $border-item;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 250ms all ease-in;
-}
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 250ms all ease-in;
+
+        &:hover,
+        &:focus {
+            outline: 1px solid $accent-color;
+
+            .clients__img {
+                fill: $accent-color;
+            }
+        }
+    }
 
 
-.clients-img {
-    fill: $border-item;
-    width: 106px;
-    height: 60px;
-    transition: 200ms all ease-in;
-}
-
-.clients-link:hover,
-.clients-link:focus {
-    outline: 1px solid $accent-color;
-
-    .clients-img {
-        fill: $accent-color;
+    &__img {
+        fill: $border-item;
+        width: 106px;
+        height: 60px;
+        transition: 200ms all ease-in;
     }
 }

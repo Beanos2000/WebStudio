@@ -7,39 +7,39 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
 
-.hero-title {
-    color: $title-color;
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1.36;
-    letter-spacing: 2.64px;
-    text-transform: uppercase;
-    width: 696px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-}
+    &__title {
+        color: $title-color;
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 1.36;
+        letter-spacing: 2.64px;
+        text-transform: uppercase;
+        width: 696px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
 
-.hero-button {
-    border-radius: 4px;
-    background: $accent-color;
-    box-shadow: 0px 4px 4px 0px $shadow;
-    color: $title-color;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.87;
-    letter-spacing: 0.96px;
-    padding: 10px 32px;
-    border: none;
-    box-shadow: 0px 4px 4px 0px $shadow;
-    transition: 250ms all ease-in-out;
-}
+    &__button {
+        border-radius: 4px;
+        background: $accent-color;
+        box-shadow: 0px 4px 4px 0px $shadow;
+        color: $title-color;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.87;
+        letter-spacing: 0.96px;
+        padding: 10px 32px;
+        border: none;
+        box-shadow: 0px 4px 4px 0px $shadow;
+        transition: 250ms all ease-in-out;
+    }
 
-.hero-button:focus,
-.hero-button:hover {
-    background: $title-color;
-    color: $accent-color;
+    &__button:focus,
+    &__button:hover {
+        background: $title-color;
+        color: $accent-color;
+    }
 }

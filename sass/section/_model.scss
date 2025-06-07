@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-.is-hidden {
+.is__hidden {
     pointer-events: none;
     opacity: 0;
 }
@@ -23,9 +23,146 @@
     background-color: $title-color;
     position: relative;
     padding: 40px;
+
+    &__x {
+        width: 18px;
+        height: 18px;
+    }
+
+    &__title {
+        color: $text-color;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 0.86;
+        letter-spacing: 0.6px;
+        margin-bottom: 12px;
+    }
+
+    &__label {
+        color: $aditional-text-color;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 0.85;
+        letter-spacing: 0.12px;
+        position: relative;
+    }
+
+    &__input {
+        width: 100%;
+        height: 40px;
+        padding-left: 42px;
+        display: block;
+
+        border-radius: 4px;
+        border: 1px solid $model-input;
+
+        margin-bottom: 10px;
+    }
+
+    &__input:hover,
+    &__input:focus {
+        outline: 1px solid $accent-color;
+    }
+
+    &__input:hover+.model__icon,
+    &__input:focus+.model__icon {
+        fill: $accent-color;
+    }
+
+    &__icon {
+        position: absolute;
+        top: 26px;
+        left: 12px;
+        width: 18px;
+        height: 18px;
+    }
+
+    &__textarea {
+        display: block;
+        width: 100%;
+        height: 120px;
+        resize: none;
+        padding: 12px 16px;
+        border-radius: 4px;
+        border: 1px solid $model-input;
+
+        margin-top: 4px;
+    }
+
+    &__checkbox-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    &__checkbox {
+        color: $aditional-text-color;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 171%;
+        letter-spacing: 0.42px;
+        margin-left: 9px;
+        margin-right: 4px;
+    }
+
+    &__link {
+
+        color: $accent-color;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.42px;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-skip-ink: none;
+        text-decoration-thickness: auto;
+        text-underline-offset: auto;
+        text-underline-position: from-font;
+
+    }
+
+    &__check {
+
+        width: 16px;
+        height: 15px;
+        fill: $text-color;
+
+    }
+
+    &__button__group {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__button {
+        width: 200px;
+        height: 50px;
+        border-radius: 4px;
+        border: none;
+        background: $accent-color;
+        box-shadow: 0px 4px 4px 0px $shadow;
+
+        color: $title-color;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 187%;
+        letter-spacing: 0.96px;
+        margin-top: 30px;
+    }
+
+    &__button:hover {
+        width: 203px;
+        height: 53px;
+
+        color: $accent-color;
+        background: $title-color;
+    }
 }
 
-.button-close {
+.button__close {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -43,146 +180,9 @@
 
 }
 
-.button-close:hover,
-.button-close:focus {
-    .model-x {
+.button__close:hover,
+.button__close:focus {
+    .model__x {
         fill: $accent-color;
     }
-}
-
-.model-x {
-    width: 18px;
-    height: 18px;
-}
-
-.model-title {
-    color: $text-color;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 0.86;
-    letter-spacing: 0.6px;
-    margin-bottom: 12px;
-}
-
-.model-label {
-    color: $aditional-text-color;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 0.85;
-    letter-spacing: 0.12px;
-    position: relative;
-}
-
-.model-input {
-    width: 100%;
-    height: 40px;
-    padding-left: 42px;
-    display: block;
-
-    border-radius: 4px;
-    border: 1px solid $model-input;
-
-    margin-bottom: 10px;
-}
-
-.model-input:hover,
-.model-input:focus {
-    outline: 1px solid $accent-color;
-}
-
-.model-input:hover+.model-icon,
-.model-input:focus+.model-icon {
-    fill: $accent-color;
-}
-
-.model-icon {
-    position: absolute;
-    top: 26px;
-    left: 12px;
-    width: 18px;
-    height: 18px;
-}
-
-.model-textarea {
-    display: block;
-    width: 100%;
-    height: 120px;
-    resize: none;
-    padding: 12px 16px;
-    border-radius: 4px;
-    border: 1px solid $model-input;
-
-    margin-top: 4px;
-}
-
-.model-checkbox-group {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.model-checkbox {
-    color: $aditional-text-color;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 171%;
-    letter-spacing: 0.42px;
-    margin-left: 9px;
-    margin-right: 4px;
-}
-
-.model-link {
-
-    color: $accent-color;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.42px;
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-    text-decoration-skip-ink: none;
-    text-decoration-thickness: auto;
-    text-underline-offset: auto;
-    text-underline-position: from-font;
-
-}
-
-.model-check {
-
-    width: 16px;
-    height: 15px;
-    fill: $text-color;
-
-}
-
-.model-button-group {
-    display: flex;
-    justify-content: center;
-}
-
-.model-button {
-    width: 200px;
-    height: 50px;
-    border-radius: 4px;
-    border: none;
-    background: $accent-color;
-    box-shadow: 0px 4px 4px 0px $shadow;
-
-    color: $title-color;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 187%;
-    letter-spacing: 0.96px;
-    margin-top: 30px;
-}
-
-.model-button:hover {
-    width: 203px;
-    height: 53px;
-
-    color: $accent-color;
-    background: $title-color;
 }
