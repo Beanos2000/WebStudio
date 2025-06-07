@@ -1,10 +1,20 @@
 .team {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: $team-background;
+
+    @media screen and (min-width: 480px) {}
+
+    @media screen and (min-width: 768px) {}
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 
     &__list {
         display: flex;
+        flex-wrap: wrap;
         gap: 30px;
     }
 
@@ -16,16 +26,31 @@
     &__title {
         color: $text-color;
         text-align: center;
-        font-size: 36px;
+        font-size: 28px;
         font-weight: 700;
         line-height: normal;
-        letter-spacing: 1.08px;
+        letter-spacing: .84px;
         margin-bottom: 50px;
+
+        @media screen and (min-width: 1200px) {
+            font-size: 36px;
+            letter-spacing: 1.08px;
+        }
     }
 
     &__images {
-        width: 270px;
-        height: 260px;
+        width: 450px;
+        height: 460px;
+
+        @media screen and (min-width: 768px) {
+            width: 354px;
+            height: 354px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 270px;
+            height: 260px;
+        }
     }
 
     &__box {
