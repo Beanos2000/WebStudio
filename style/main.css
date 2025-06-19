@@ -99,6 +99,110 @@ body {
     letter-spacing: 0.78px;
   }
 }
+.header__button {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .header__button {
+    display: none;
+  }
+}
+.header__burger {
+  width: 40px;
+  height: 40px;
+}
+.header__menu {
+  z-index: 1;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #FFF;
+  padding-left: 40px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.header__close {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+.header__group {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.header__link {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+.header__group2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 200px;
+  margin-bottom: 64px;
+}
+.header__elem2:nth-child(1) .header__link2 {
+  width: 100%;
+  word-break: keep-all;
+  color: #2196F3;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.68px;
+}
+.header__elem2:nth-child(2) .header__link2 {
+  color: #757575;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+.header__group3 {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.header__link3 {
+  color: #2196F3;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.36px;
+  display: flex;
+  align-items: center;
+}
+.header__elem3:not(:last-child) .header__link3::after {
+  content: "";
+  background-color: rgba(33, 33, 33, 0.2);
+  width: 1px;
+  height: 22px;
+  display: block;
+  margin-left: 10px;
+}
 .header__lister {
   display: none;
 }
@@ -187,6 +291,11 @@ body {
 
 .active {
   color: #2196F3;
+}
+
+.is__hidden {
+  pointer-events: none;
+  opacity: 0;
 }
 
 .hero {

@@ -41,6 +41,129 @@
         }
     }
 
+    &__button {
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+    }
+
+    &__burger {
+        width: 40px;
+        height: 40px;
+    }
+
+    &__menu {
+        z-index: 1;
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: $title-color;
+
+        padding-left: 40px;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    &__close {
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+    }
+
+    &__group {
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    &__link {
+        color: #212121;
+        font-family: Roboto;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.8px;
+    }
+
+    &__group2 {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin-top: 200px;
+        margin-bottom: 64px;
+    }
+
+    &__elem2:nth-child(1) {
+        .header__link2 {
+            width: 100%;
+            word-break: keep-all;
+            color: $accent-color;
+            font-size: 34px;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0.68px;
+        }
+    }
+
+    &__elem2:nth-child(2) {
+        .header__link2 {
+            color: $aditional-text-color;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0.48px;
+        }
+    }
+
+    &__group3 {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    &__link3 {
+        color: #2196F3;
+
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0.36px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__elem3:not(:last-child) {
+        .header__link3::after {
+            content: "";
+            background-color: $model-input;
+            width: 1px;
+            height: 22px;
+            display: block;
+            margin-left: 10px;
+        }
+    }
+
     &__lister {
         display: none;
 
@@ -144,4 +267,9 @@
 
 .active {
     color: $accent-color;
+}
+
+.is__hidden {
+    pointer-events: none;
+    opacity: 0;
 }

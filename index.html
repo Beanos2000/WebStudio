@@ -23,6 +23,36 @@
     <header class="header">
         <div class="container header__container">
             <a class="header__title2" href="./index.html"><span class="header__title1">Web</span>Studio</a>
+            <button class="header__button" type="button" data-menu-open><svg class="header__burger">
+                    <use href="./img/symbol-defs.svg#icon-menu"></use>
+                </svg></button>
+            <div class="header__menu is__hidden" data-menu>
+                <button class="header__close" type="button" data-menu-close>
+                    <svg class="header__burger">
+                        <use href="./img/symbol-defs.svg#icon-close"></use>
+                    </svg>
+                </button>
+
+                <ul class="header__group">
+                    <li class="header__elem"><a class="header__link active" href="./index.html">Студія</a></li>
+                    <li class="header__elem"><a class="header__link" href="./pages/portfolio.html">Портфоліо</a></li>
+                    <li class="header__elem"><a class="header__link" href="#">Контакти</a></li>
+                </ul>
+
+                <ul class="header__group2">
+                    <li class="header__elem2"><a class="header__link2"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="header__elem2"><a class="header__link2" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+
+                <ul class="header__group3">
+                    <li class="header__elem3"><a class="header__link3" href="">Instagram</a></li>
+                    <li class="header__elem3"><a class="header__link3" href="">Twitter</a></li>
+                    <li class="header__elem3"><a class="header__link3" href="">Facebook</a></li>
+                    <li class="header__elem3"><a class="header__link3" href="">LinkedIn</a></li>
+                </ul>
+            </div>
             <nav class="header__lister">
                 <ul class="header__list">
                     <li class="header__item"><a class="header__buttons active" href="./index.html">Студія</a></li>
@@ -440,6 +470,7 @@
         </div>
 
         <script src="./JS/model.JS"></script>
+        <script src="./JS/menu.JS"></script>
 
 </body>
 
