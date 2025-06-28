@@ -140,7 +140,13 @@
 
                 <h2 class="team__title">Наша команда</h2>
                 <ul class="team__list">
-                    <li class="team__items"><img class="team__images" src="./img/teamigor.jpg" alt="teamigor">
+                    <li class="team__items">
+                        <picture>
+                            <source srcset="./img/desktop/igor-desktop@1x.webp 1x, ./img/desktop/igor-desktop@2x.webp 2x" media="(min-width: 1200px)">
+                            <source srcset="./img/tablet/igor-tablet@1x.webp 1x, ./img/tablet/igor-tablet@2x.webp 2x" media="(min-width: 768px)">
+                            <source srcset="./img/mobile/igor-mobile@1x.webp 1x, ./img/mobile/igor-mobile@2x.webp 2x" media="(max-width: 767px)">
+                            <img class="team__images" src="./img/teamigor.jpg" alt="teamigor">
+                        </picture>
                         <div class="team__box">
                             <h2 class="team__names">Ігор Дем'яненко</h2>
                             <p class="team__ranks">Product Designer</p>
@@ -176,7 +182,13 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team__items"><img class="team__images" src="./img/teamolga.jpg" alt="teamolga">
+                    <li class="team__items">
+                        <picture>
+                            <source srcset="./img/desktop/olga-desktop@1x.webp 1x, ./img/desktop/olga-desktop@2x.webp 2x" media="(min-width: 1200px)">
+                            <source srcset="./img/tablet/olga-tablet@1x.webp 1x, ./img/tablet/olga-tablet@2x.webp 2x" media="(min-width: 768px)">
+                            <source srcset="./img/mobile/olga-mobile@1x.webp 1x, ./img/mobile/olga-mobile@2x.webp 2x" media="(max-width: 767px)">
+                            <img class="team__images" src="./img/teamolga.jpg" alt="teamolga">
+                        </picture>
                         <div class="team__box">
                             <h2 class="team__names">Ольга Рєпіна</h2>
                             <p class="team__ranks">Frontend Developer</p>
@@ -212,7 +224,14 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team__items"> <img class="team__images" src="./img/teammikola.jpg" alt="teammikola">
+                    <li class="team__items">
+                        <picture>
+                            <source srcset="./img/desktop/mikola-desktop@1x.webp 1x, ./img/desktop/mikola-desktop@2x.webp 2x" media="(min-width: 1200px)">
+                            <source srcset="./img/tablet/mikola-tablet@1x.webp 1x, ./img/tablet/mikola-tablet@2x.webp 2x" media="(min-width: 768px)">
+                            <source srcset="./img/mobile/mikola-mobile@1x.webp 1x, ./img/mobile/mikola-mobile@2x.webp 2x" media="(max-width: 767px)">
+                            <img class="team__images" src="./img/teammikola.jpg" alt="teammikola">
+                        </picture>
+                        
                         <div class="team__box">
                             <h2 class="team__names">Микола Тарасов</h2>
                             <p class="team__ranks">Marketing</p>
@@ -248,7 +267,14 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team__items"><img class="team__images" src="./img/teammihaylo.jpg" alt="teammihaylo">
+                    <li class="team__items">
+                        <picture>
+                            <source srcset="./img/desktop/mihalo-desktop1x.webp 1x, ./img/desktop/mihalo-desktop2x.webp 2x" media="(min-width: 1200px)">
+                            <source srcset="./img/tablet/mihalo-tablet1x.webp 1x, ./img/tablet/mihalo-tablet2x.webp 2x" media="(min-width: 768px)">
+                            <source srcset="./img/mobile/mihalo-mobile@1x.webp 1x, ./img/mobile/mihalo-mobile@2x.webp 2x" media="(max-width: 767px)">
+                            <img class="team__images" src="./img/teammihaylo.jpg" alt="teammihaylo">
+                        </picture>
+                        
                         <div class="team__box">
                             <h2 class="team__names">Михайло Єрмаков</h2>
                             <p class="team__ranks">UI Designer</p>
@@ -461,9 +487,7 @@
                     </div>
 
                     <div class="model__button__group">
-                        <button type="submit" class="model__button">Відправити
-
-                        </button>
+                        <button type="submit" class="model__button">Відправити</button>
                     </div>
                 </form>
             </div>
